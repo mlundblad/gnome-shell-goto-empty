@@ -1,6 +1,3 @@
-const St = imports.gi.St;
-const Mainloop = imports.mainloop;
-
 const Main = imports.ui.main;
 
 function _gotoLastWorkspace() {

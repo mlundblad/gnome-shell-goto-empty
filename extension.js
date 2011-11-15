@@ -1,4 +1,3 @@
-// Sample extension code, makes clicking on the panel show a message
 const St = imports.gi.St;
 const Mainloop = imports.mainloop;
 
@@ -9,7 +8,6 @@ function _gotoLastWorkspace() {
     ws.activate(true);
 }
 
-// Put your extension initialization code here
 function main() {
     // setup shortcut handler...
     Main.wm.setKeybindingHandler('show_desktop', _gotoLastWorkspace);

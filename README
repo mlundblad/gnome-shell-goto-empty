@@ -1,0 +1,5 @@
+A gnome-shell extension that overrides the "Show desktop" shortcut to
+switch to the (always empty) last workspace.
+This requires that this shortcut is assigned in the keyboard settings.
+At least in Debian is by default not set.
+This extension probably only works in gnome-shell 3.0.x (for now).
